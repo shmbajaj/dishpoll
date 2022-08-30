@@ -1,0 +1,87 @@
+.at-top {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: white;
+}
+
+.flex-end {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.username {
+  margin-left: auto;
+  font-size: medium;
+  font-size: large;
+  margin-right: 0.5rem;
+  text-transform: capitalize;
+}
+
+.logout {
+  margin: 0;
+}
+
+.selectDishes {
+  border-width: 0;
+  width: 100%;
+  border: 1px solid;
+  padding: 0.625rem;
+  border-color: black;
+}
+
+.selectDishes:active,
+.selectDishes:focus {
+  border: 1px solid;
+  outline: none;
+}
+
+.listDishes {
+  display: none;
+  border-color: black;
+  border-style: solid;
+  border-bottom-width: 1px;
+}
+
+.dish-tab {
+  list-style-type: none;
+  width: 100%;
+  text-align: center;
+  padding: 0.625rem;
+}
+
+.dish-tab:first-of-type {
+  border-right: 1px solid;
+}
+
+.tab-button {
+  border: 0;
+}
+
+.tab-button:hover {
+  background: transparent;
+  cursor: pointer;
+  border: 0;
+  color: red;
+}
+
+.tab-button:focus,
+.tab-button:active {
+  color: black;
+  border: 0;
+  outline: 0;
+}
+
+.tab-button.active {
+  color: red;
+}
+
+@media (min-width: 768px) {
+  .listDishes {
+    display: flex;
+  }
+  .selectDishes {
+    display: none;
+  }
+}
