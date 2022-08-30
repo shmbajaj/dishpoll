@@ -20,11 +20,13 @@ A user can vote for three dishes and has three options for ranking dishes rank1,
 - Responsive
 - No external packages used
 
-## Deployed App
+## [Deployed App(click me)](https://shmbajaj-dishpoll.netlify.app/)
 
 ## How to use app
+https://user-images.githubusercontent.com/29247011/187542891-b21661ae-8f54-4bdc-aa7e-8efa325843bb.mp4
 
-## How to run app on localhost(using terminal)
+
+## How to run app on localhost(using terminal
 
 - Clone the repository
 - Change directory to **`dishpoll`**
