@@ -1,0 +1,32 @@
+.login {
+  width: 100%;
+  max-width: 50%;
+  margin: auto;
+  padding: 1rem;
+  border: 2px solid black;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.form {
+  margin: 0.8rem auto;
+  display: grid;
+  gap: 1.5rem;
+  place-items: center;
+}
+
+.form-input {
+  margin-left: 0.5rem;
+}
+
+.form-button {
+  background: transparent;
+  cursor: pointer;
+}
+
+.form-message {
+  color: red;
+}
